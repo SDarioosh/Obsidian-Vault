@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS6930/EX1.md",
+                "file": "EEL5632/Presentation 1 Script.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EX1"
+              "title": "Presentation 1 Script"
             }
           }
         ]
@@ -177,8 +177,10 @@
   },
   "active": "80eab41f768a5ba5",
   "lastOpenFiles": [
-    "COP4533/Lecture 2.md",
     "CIS6930/EX1.md",
+    "EEL5632/Presentation 1 Script.md",
+    "Untitled",
+    "COP4533/Lecture 2.md",
     "CIS6930",
     "Server List.base",
     "COP4533/Lecture 1.md",
@@ -220,9 +222,7 @@
     "Photo Dump/Pasted image 20250417215133.png",
     "CIS4360/Exam 1 Review Sheet.md",
     "Report template Part 3.md",
-    "Photo Dump",
     "CIS4301/Sp25/HW5.md",
-    "CIS4301/Sp25/HW4.md",
     "Untitled.canvas"
   ]
 }
