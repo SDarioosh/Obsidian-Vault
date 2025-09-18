@@ -1,7 +1,7 @@
 
 **(Slide 10: Application Modules > Overview)**
 
-"Good afternoon, everyone. Now that we've covered how the SAFELANE system perceives the world, let's dive into the brains of the operation: the **Decision Layer** and its **Application Modules**
+"Good afternoon, My name is Shahyah and I’ll be presenting the application modules section. Now that we've covered how the SAFELANE system perceives the world, let's dive into the brains of the operation: the **Decision Layer** and its **Application Modules**
 
 The decision system's primary role is to analyze the current driving situation, identify any risks, and then suggest the proper action for the lane-keeping function to perform . To achieve this, it relies on critical data from several key modules. We will now go through each of these components, starting with how the system plans for the road ahead."
 
@@ -27,7 +27,7 @@ The TEM has two main sub-functions. The first is 
 
 The second is 
 
-**Lane Change Prediction**, which compares that predicted trajectory to the geometry of the lane . This module is also critical when lane markings aren't visible, as it can act as a dead-reckoning function to assist the Lane Data Fusion module ."
+**Lane Change Prediction**, which compares that predicted trajectory to the geometry of the lane . This module is also critical when lane markings aren't visible, as it can act as a dead-reckoning function to assist the Lane Data Fusion module in the event the vehicle can not see lane markings."
 
 ---
 
@@ -41,7 +41,7 @@ The second is 
 
 To ensure accuracy, the system uses a 
 
-**Kalman Filter** to reduce measurement noise from the sensors. The final output is a matrix representing the vehicle's predicted location over time, giving the system a picture of the car's immediate future path."
+**Kalman Filter** to reduce measurement noise from the sensors. it uses vectors to calculate the position of the vehicle over time, and the final output is a matrix representing the vehicle's predicted location over time, giving the system a picture of the car's immediate future path."
 
 ---
 
@@ -61,9 +61,7 @@ A **slow decrease** in TLC often indicates a drowsy driver, while a **fast de
 
 The **Dynamic Approach** is more advanced. It directly compares the vehicle's projected trajectory to the lane's geometry. The intersection of these two paths determines the Time to Lane Crossing. This method also calculates more robust metrics like the 
 
-**Lane Predicted Minimum Distance**, or **LPMD**. Instead of just waiting for a lane crossing, the system calculates the closest point the vehicle will get to the lane boundary in the near future. The second metric is the 
-
-**Time to Lane Predicted Minimum Distance**, or **TLPMD**, which is simply the time it will take to reach that closest point which once reached will trigger a warning.
+**Lane Predicted Minimum Distance**, or **LPMD**. Instead of just waiting for a lane crossing, the system calculates the closest point the vehicle will get to the lane boundary in the near future. The second metric is the **Time to Lane Predicted Minimum Distance**, or **TLPMD**, which is simply the time it will take to reach that closest point which once reached will trigger a warning.
 
 As you can see from the performance trial graphs, the dynamic approach leads to earlier prediction, 3.6 s before lane departure against 2.4 and 1.9 s, 
 
