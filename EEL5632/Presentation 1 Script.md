@@ -27,7 +27,7 @@ The TEM has two main sub-functions. The first is 
 
 The second is 
 
-**Lane Change Prediction**, which compares that predicted trajectory to the geometry of the lane . This module is also critical when lane markings aren't visible, as it can act as a dead-reckoning function to assist the Lane Data Fusion module in the event the vehicle can not see lane markings."
+**Lane Change Prediction**, which compares that predicted trajectory to the geometry of the lane . This module is also critical when lane markings aren't visible, as it can act as a dead-reckoning function to assist the Lane Data Fusion module."
 
 ---
 
