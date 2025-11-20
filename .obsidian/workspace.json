@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Presentation 4 script"
             }
+          },
+          {
+            "id": "be2c77ca7cc509e8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a3ebac445d94aa5e",
@@ -204,7 +217,7 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "85f4d97fb53e3e89",
+  "active": "be2c77ca7cc509e8",
   "lastOpenFiles": [
     "EEL5632/Presentation 4 script.md",
     "EEL5632/Presentation 2 Script.md",
