@@ -39,12 +39,14 @@
             "id": "be2c77ca7cc509e8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.3"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ],
@@ -105,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a3ebac445d94aa5e",
@@ -219,6 +220,10 @@
   },
   "active": "be2c77ca7cc509e8",
   "lastOpenFiles": [
+    "Untitled 1.base",
+    "Untitled.base",
+    "Recording 20250826155307.m4a",
+    "COP4533/Milestone 3.md",
     "EEL5632/Presentation 4 script.md",
     "EEL5632/Presentation 2 Script.md",
     "EEL5632/Critiques 2.md",
@@ -235,9 +240,7 @@
     "192.168.1.24.md",
     "Server Name.md",
     "Server List.md",
-    "Untitled.base",
     "EEL5632/Lecture 2.md",
-    "Recording 20250826155307.m4a",
     "ROM Command.md",
     "EEL5632/Untitled",
     "EEL5632",
@@ -253,11 +256,8 @@
     "CIS4301/Sp25/HW2 Relational Model.md",
     "CIS4301/Sp25/Exam 2 Practice.md",
     "CIS4301/Sp24/Project Ideas and Links.md",
-    "Personal Project/Project Ideas.md",
-    "Module 1.md",
     "Photo Dump/Pasted image 20250417215059.png",
     "Photo Dump/Pasted image 20250417215117.png",
-    "Personal Project",
     "Photo Dump/Pasted image 20250417215637.png",
     "Photo Dump/Pasted image 20250417215615.png",
     "Photo Dump/Pasted image 20250417215556.png",
