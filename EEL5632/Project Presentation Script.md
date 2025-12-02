@@ -13,7 +13,7 @@ This can **alleviate congestion**, as it will allow for much **quicker actions
 # Slide 3
 ---
 
-I'd like to quickly discuss how we **developed this project**. We used **SUMO**, which is a traffic simulator, and we leveraged the **TraCI library** to allow us to control SUMO using **Python**.
+I'd like to quickly discuss how we **developed this project**. We used **SUMO**, which is a traffic simulator, and we leveraged the **TraCI library** to allow us to control SUMO using **Python**. We disabled the built in SUMO lane changing system and overided it with our own
 
 The **roadway** we used for testing is a **5-lane highway** that does not contain **on- or off-ramps**, as our algorithm solely focuses on **negotiation** between vehicles.
 
